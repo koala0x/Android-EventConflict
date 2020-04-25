@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tv_dunning_time"
+        style="@style/style_my_text"
+        android:layout_width="100dp"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:text="显示详情"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tv_dunning_user"
+        style="@style/style_my_text"
+        android:layout_width="140dp"
+        android:layout_height="44dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="电话"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent" />
+
+
+    <TextView
+        android:id="@+id/tv_contact_user"
+        style="@style/style_my_text"
+        android:layout_width="140dp"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:text="添加记录"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent" />
+
+
+    <TextView
+        android:id="@+id/tv_dunning_type"
+        style="@style/style_my_text"
+        android:layout_width="100dp"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:text="用户ID"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tv_dunning_state"
+        style="@style/style_my_text"
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:lines="3"
+        android:text="用户姓名"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tv_channel_resouce"
+        style="@style/style_my_text"
+        android:layout_width="160dp"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:text="渠道"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tv_days_overdue"
+        style="@style/style_my_text"
+        android:layout_width="140dp"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:text="超过天数"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent" />
+</LinearLayout>

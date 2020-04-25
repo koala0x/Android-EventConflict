@@ -1,0 +1,3 @@
+rootProject.name = 'Android-SlidingConflict-Study'
+include ':ViewPager与HorizontalScrollVIew冲突解决'
+
