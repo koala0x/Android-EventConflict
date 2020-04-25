@@ -131,6 +131,9 @@ public class YeyHorizontalScrollView extends HorizontalScrollView {
         }
         return disallowIntercepet;
     }
+
+
+
 //    dispatchTouchEvent() 该方法中也可以做请求父控件不要拦截的操作,但这里实现会导致两个页面切换的时候新出来的界面会跳跃.
 //    @Override
 //    public boolean dispatchTouchEvent(MotionEvent e) {
